@@ -12,7 +12,8 @@
         "favicon.ico",
         "css",
         "vendor",
-        "js"
+        "js",
+        "images"
       ],
       "index": "index.html",
       "main": "main.ts",

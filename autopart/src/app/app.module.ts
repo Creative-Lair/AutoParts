@@ -6,11 +6,12 @@ import { Header } from './components/header/header';
 import { Slider } from './components/slider/slider';
 import { Footer } from './components/footer/footer';
 import { Body } from './components/body/body';
+import { Topbar } from './components/topbar/topbar';
 
 
 @NgModule({
   declarations: [
-    AppComponent, Header, Slider, Footer, Body
+    AppComponent, Header, Slider, Footer, Body, Topbar
   ],
   imports: [
     BrowserModule

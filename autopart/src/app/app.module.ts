@@ -7,14 +7,15 @@ import { Slider } from './components/slider/slider';
 import { Footer } from './components/footer/footer';
 import { Body } from './components/body/body';
 import { Topbar } from './components/topbar/topbar';
-
+import { Home } from './components/home/home';
+import {routing} from './app.router'
 
 @NgModule({
   declarations: [
-    AppComponent, Header, Slider, Footer, Body, Topbar
+    AppComponent, Header, Slider, Footer, Body, Topbar,Home
   ],
   imports: [
-    BrowserModule
+    BrowserModule, routing
   ],
   providers: [],
   bootstrap: [AppComponent]
